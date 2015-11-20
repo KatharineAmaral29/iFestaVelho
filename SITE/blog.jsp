@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Blog | Corlate</title>
+    <title>iFesta.net | Blog </title>
     
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -65,26 +65,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.jsp"><img src="images/logo.png" alt="logo"></a>
                 </div>
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="about-us.jsp">About Us</a></li>
+                        <li><a href="services.jsp">Services</a></li>
+                        <li><a href="portfolio.jsp">Portfolio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                                <li><a href="blog-item.jsp">Blog Single</a></li>
+                                <li><a href="pricing.jsp">Pricing</a></li>
+                                <li><a href="404.jsp">404</a></li>
+                                <li><a href="shortcodes.jsp">Shortcodes</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="blog.html">Blog</a></li> 
-                        <li><a href="contact-us.html">Contact</a></li>                        
+                        <li class="active"><a href="blog.jsp">Blog</a></li> 
+                        <li><a href="contact-us.jsp">Contact</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -107,16 +107,16 @@
                                 <div class="entry-meta">
                                     <span id="publish_date">07  NOV</span>
                                     <span><i class="fa fa-user"></i> <a href="#">John Doe</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">2 Comments</a></span>
+                                    <span><i class="fa fa-comment"></i> <a href="blog-item.jsp#comments">2 Comments</a></span>
                                     <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
                                 </div>
                             </div>
                                 
                             <div class="col-xs-12 col-sm-10 blog-content">
                                 <a href="#"><img class="img-responsive img-blog" src="images/blog/blog1.jpg" width="100%" alt="" /></a>
-                                <h2><a href="blog-item.html">Consequat bibendum quam liquam viverra</a></h2>
+                                <h2><a href="blog-item.jsp">Consequat bibendum quam liquam viverra</a></h2>
                                 <h3>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper.</h3>
-                                <a class="btn btn-primary readmore" href="blog-item.html">Read More <i class="fa fa-angle-right"></i></a>
+                                <a class="btn btn-primary readmore" href="blog-item.jsp">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>    
                     </div><!--/.blog-item-->
@@ -127,15 +127,15 @@
                                 <div class="entry-meta"> 
                                     <span id="publish_date">07  NOV</span>
                                     <span><i class="fa fa-user"></i> <a href="#">John Doe</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">2 Comments</a></span>
+                                    <span><i class="fa fa-comment"></i> <a href="blog-item.jsp#comments">2 Comments</a></span>
                                     <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
                                 </div>
                             </div>
                             <div class="col-sm-10 blog-content">
                                 <a href=""><img class="img-responsive img-blog" src="images/blog/blog2.jpg" width="100%" alt="" /></a>
-                                <h2><a href="blog-item.html">Consequat bibendum quam liquam viverra</a></h2>
+                                <h2><a href="blog-item.jsp">Consequat bibendum quam liquam viverra</a></h2>
                                 <h3>Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel semper. Nullam sapien elit, lacinia eu tristique non.posuere at mi. Morbi at turpis id urna ullamcorper ullamcorper.</h3>
-                                <a class="btn btn-primary readmore" href="blog-item.html">Read More <i class="fa fa-angle-right"></i></a>
+                                <a class="btn btn-primary readmore" href="blog-item.jsp">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>    
                     </div><!--/.blog-item-->

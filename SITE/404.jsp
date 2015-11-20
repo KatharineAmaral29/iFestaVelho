@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>404 | Corlate</title>
+    <title>iFesta.net | 404 </title>
+	
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -26,21 +27,6 @@
 <body>
 
     <header id="header">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-8">
-                            <div class="search">
-                                <form role="form">
-                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                                    <i class="fa fa-search"></i>
-                                </form>
-                           </div>
-                    </div>
-                </div>
-            </div><!--/.container-->
-        </div><!--/.top-bar-->
-
         <nav class="navbar navbar-inverse" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -55,7 +41,13 @@
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.jsp">Home</a></li>
+                        <li><div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                        </div>
+						<li><a href="index.jsp">Home</a></li>
                         <li><a href="about-us.jsp">About Us</a></li>
                         <li><a href="services.jsp">Services</a></li>
                         <li><a href="portfolio.jsp">Portfolio</a></li>
@@ -70,7 +62,7 @@
                         </li>
                         <li><a href="blog.jsp">Blog</a></li> 
                         <li><a href="contact-us.jsp">Contact</a></li>                        
-                    </ul>
+						</ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
@@ -79,92 +71,31 @@
 
     <section id="error" class="container text-center">
         <h1>404, Page not found</h1>
-        <p>The Page you are looking for doesn't exist or an other error occurred.</p>
-        <a class="btn btn-primary" href="index.jsp">GO BACK TO THE HOMEPAGE</a>
+        <p>Não foi possível acessar a página ou ocorreu um erro.</p>
+        <a class="btn btn-primary" href="index.jsp">VOLTE PARA A PÁGINA INICIAL</a>
     </section><!--/#error-->
 
-    <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Company</h3>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Support</h3>
-                        <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Developers</h3>
-                        <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Our Partners</h3>
-                        <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
-
     <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <div class="container text-center">
+			<ul>
+                <li>Formas de Pagamento:</li>
+				<li>V</li>
+                <li>M</li>
+                <li>A</li> 
+                <li>D</li>
+                <li>B</li>
+				<li>iFesta nas Redes Sociais:</li>
+				<li><a href="#">FACE</a></li>
+				<li><a href="#">INSTA</a></li>
+				<li><a href="#">TWIT</a></li>
+			</ul>
+		</div>
+		<div class="container text-center">
+			<ul> <br>iFesta.net.br é uma empresa do grupo <a href="#">NOME EMPRESA</a> </ul>
+			<ul> CNPJ nº XX.XXX.XXX/XXXX-XX</ul>
+			<ul> NOSSO ENDEREÇO </ul>
+			<ul> Fortaleza – CE</ul>
+		</div>
     </footer><!--/#footer-->
 
     <script src="js/jquery.js"></script>
