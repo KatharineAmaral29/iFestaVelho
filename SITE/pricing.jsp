@@ -271,21 +271,26 @@
     </section><!--/#bottom-->
 
     <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <div class="container text-center">
+			<ul>
+                <li>Formas de Pagamento:</li>
+				<li>V</li>
+                <li>M</li>
+                <li>A</li> 
+                <li>D</li>
+                <li>B</li>
+				<li>iFesta nas Redes Sociais:</li>
+				<li><a href="#">FACE</a></li>
+				<li><a href="#">INSTA</a></li>
+				<li><a href="#">TWIT</a></li>
+			</ul>
+		</div>
+		<div class="container text-center">
+			<ul> <br>iFesta.net.br é uma empresa do grupo <a href="#">NOME EMPRESA</a> </ul>
+			<ul> CNPJ nº XX.XXX.XXX/XXXX-XX</ul>
+			<ul> NOSSO ENDEREÇO </ul>
+			<ul> Fortaleza – CE</ul>
+		</div>
     </footer><!--/#footer-->
 
     <script src="js/jquery.js"></script>
