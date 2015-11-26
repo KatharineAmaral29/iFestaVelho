@@ -18,7 +18,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/ifestaTAB.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -49,27 +49,27 @@
                                 </form>
                         </div>
 						<li><a href="index.jsp">Home</a></li>
-                        <li><a href="about-us.jsp">About Us</a></li>
-                        <li><a href="services.jsp">Services</a></li>
-                        <li><a href="portfolio.jsp">Portfolio</a></li>
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-item.jsp">Blog Single</a></li>
-                                <li><a href="pricing.jsp">Pricing</a></li>
-                                <li class="active"><a href="404.jsp">404</a></li>
-                                <li><a href="shortcodes.jsp">Shortcodes</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="blog.jsp">Blog</a></li> 
-                        <li><a href="contact-us.jsp">Contact</a></li>                        
-						</ul>
+                        <li><a href="about-us.jsp">Novidades</a></li>
+                        <li><a href="services.jsp">Promoções</a></li>
+                        <li><a href="portfolio.jsp">Contato</a></li>                 
+						<li><img src="images/carrinho.png">
+					</ul>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
         
     </header><!--/header-->
 
+	<div class="ifesta" align=”center”>
+		<img src="images/ifesta.png" class="img-responsive">		
+	</div>
+	
+	
+	<div class="categoria" align=”center”>
+		<img src="images/categorias.png" class="img-responsive">		
+	</div>
+	
+	
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
             <ol class="carousel-indicators">
@@ -84,9 +84,9 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1">Slide 1</h1>
+                                    <h2 class="animation animated-item-2">Texto slide 1</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Saiba mais</a>
                                 </div>
                             </div>
 
@@ -105,9 +105,9 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1">Slide 2</h1>
+                                    <h2 class="animation animated-item-2">Texto slide 2</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Saiba Mais</a>
                                 </div>
                             </div>
 
@@ -126,9 +126,9 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1">Slide 3</h1>
+                                    <h2 class="animation animated-item-2">Texto slide 3</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Saiba Mais</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
@@ -630,109 +630,6 @@
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#content-->
-
-    <section id="partner">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Our Partners</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>    
-
-            <div class="partners">
-                <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
-                </ul>
-            </div>        
-        </div><!--/.container-->
-    </section><!--/#partner-->
-
-    <section id="conatcat-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-left">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="media-body">
-                            <h2>Have a question or need a custom quote?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--/.container-->    
-    </section><!--/#conatcat-info-->
-
-    <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Company</h3>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">We are hiring</a></li>
-                            <li><a href="#">Meet the team</a></li>
-                            <li><a href="#">Copyright</a></li>
-                            <li><a href="#">Terms of use</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Support</h3>
-                        <ul>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Refund policy</a></li>
-                            <li><a href="#">Ticket system</a></li>
-                            <li><a href="#">Billing system</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Developers</h3>
-                        <ul>
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">SEO Marketing</a></li>
-                            <li><a href="#">Theme</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Email Marketing</a></li>
-                            <li><a href="#">Plugin Development</a></li>
-                            <li><a href="#">Article Writing</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="widget">
-                        <h3>Our Partners</h3>
-                        <ul>
-                            <li><a href="#">Adipisicing Elit</a></li>
-                            <li><a href="#">Eiusmod</a></li>
-                            <li><a href="#">Tempor</a></li>
-                            <li><a href="#">Veniam</a></li>
-                            <li><a href="#">Exercitation</a></li>
-                            <li><a href="#">Ullamco</a></li>
-                            <li><a href="#">Laboris</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
 
     <footer id="footer" class="midnight-blue">
         <div class="container text-center">
