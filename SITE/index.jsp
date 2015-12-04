@@ -148,7 +148,7 @@
             <i class="fa fa-chevron-right"></i>
         </a>
     </section><!--/#main-slider-->
-
+	
     <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
