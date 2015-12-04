@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>iFesta.net | Pricing </title>
+    <title>iFesta.net | Planos </title>
     
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -53,15 +53,6 @@
                         <li><a href="about-us.jsp">About Us</a></li>
                         <li><a href="services.jsp">Services</a></li>
                         <li><a href="portfolio.jsp">Portfolio</a></li>
-                        <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="blog-item.jsp">Blog Single</a></li>
-                                <li><a href="pricing.jsp">Pricing</a></li>
-                                <li class="active"><a href="404.jsp">404</a></li>
-                                <li><a href="shortcodes.jsp">Shortcodes</a></li>
-                            </ul>
-                        </li>
                         <li><a href="blog.jsp">Blog</a></li> 
                         <li><a href="contact-us.jsp">Contact</a></li>                        
 						</ul>

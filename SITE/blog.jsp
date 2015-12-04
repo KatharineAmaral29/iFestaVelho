@@ -57,7 +57,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="blog-item.jsp">Blog Single</a></li>
-                                <li><a href="pricing.jsp">Pricing</a></li>
+                                <li><a href="planos.jsp">Planos</a></li>
                                 <li class="active"><a href="404.jsp">404</a></li>
                                 <li><a href="shortcodes.jsp">Shortcodes</a></li>
                             </ul>
